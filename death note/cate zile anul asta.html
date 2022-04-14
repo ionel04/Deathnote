@@ -1,0 +1,24 @@
+<html> 
+
+<script>  
+
+alert ("vrei sa sti cate zile ai trait in vaita ta ?")
+alert ("in JS Ianuarie=0 si Decembrie=11 ")
+
+var an = prompt ("anul"); 
+var luna = prompt ("luna"); 
+var ziua = prompt ("ziua"); 
+var astazi = new Date; 
+var ziua_ta = new Date (an,luna,ziua); 
+var k; 
+k=astazi-ziua_ta;  
+k=k/1000; 
+k=k/60; 
+k=k/60; 
+k=k/24; 
+document.write(k); document.write(" de zile");
+ 
+
+</script>
+
+</html>
